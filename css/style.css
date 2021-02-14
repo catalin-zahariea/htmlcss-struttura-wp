@@ -1,0 +1,66 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* RESET END */
+
+/* COMMON */
+
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+nav {
+    background-color: pink;
+    height: 100px;
+    margin: 20px 0;
+}
+
+.banner {
+    background-color: rgb(223,214,134);
+    height: 400px;
+    margin: 20px 0;
+}
+
+main {
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    background-color: lightblue;
+    height: 100px;
+}
+
+.col {
+    float: left;
+    background-color: lightblue;
+    height: 400px;
+    padding: 20px;
+}
+
+.col-edge {
+    width: 20%;
+}
+
+.col-center {
+    width: 60%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-footer {
+    height: 50px;
+    background-color: blueviolet;
+}
+
+/* COMMON END */
