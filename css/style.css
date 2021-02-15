@@ -53,7 +53,7 @@ main {
     margin: 0 10px 10px 10px;
 }
 
-.clearfix:after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
